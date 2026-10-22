@@ -1,0 +1,21 @@
+{
+  "schema_version": "guild-ledger.harness2-profile/v1",
+  "harness_id": "H4",
+  "profile": "native-deterministic-demo",
+  "status": "offline infrastructure validation; not admitted",
+  "source": {
+    "repository": "https://github.com/google-research/harness2.git",
+    "commit": "1cfe254e8d25b15f37048c3730134686abe60335",
+    "tree": "edc756a4d03a2826a248115482084a176e60e751",
+    "archive_sha256": "82737084dc4f975ebaf1c34a3b1e5d7613a1fd6f87ca348572bcdf11e5bc3d57",
+    "archive_format": "git archive --format=tar.gz"
+  },
+  "entrypoint": "harness2.cli.demo",
+  "executor": "upstream deterministic Python demo",
+  "model_backed_execution_enabled": false,
+  "k": 2,
+  "mode": "both",
+  "model_calls": 0,
+  "persistence": "fresh per experiment; native per-domain libraries inside an ordered demo stream",
+  "controlled_comparison_admitted": false
+}
